@@ -30,6 +30,8 @@ provider:
     USERS_TABLE: ${self:custom.tableName}
     ADS_TABLE: ${self:custom.adsTableName}
     CURSOS_TABLE: ${self:custom.cursosTableName}
+  httpApi:
+    cors: true
 
 functions:
   api:
